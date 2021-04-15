@@ -41,7 +41,7 @@ try {
     setcookie("access_" . $tenantId, "", time() - 3600);
     setcookie("id_" . $tenantId, "", time() - 3600);
     setcookie("refresh_" . $tenantId, "", time() - 3600);
-    header("Location: /dashboard.php");
+    header("Location: /protected.php");
     die();
 }
 ?>

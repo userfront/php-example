@@ -26,7 +26,7 @@ $hasAccessToken = isset($jwt);
     <?php
         if ($hasAccessToken) {
             echo '<ul>';
-            echo '<li><a href="/dashboard.php">Dashboard</a></li>';
+            echo '<li><a href="/protected.php">Dashboard</a></li>';
             echo '<li><a href="/reset.php">Password reset</a></li>';
             echo '</ul>';
             echo '<br><button onclick="Userfront.logout()">Logout</button>';
